@@ -1,0 +1,19 @@
+.SidebarMenu{
+    display: flex;
+    align-items: center;
+    color: #848484;
+    height: 40px;
+    cursor: pointer;
+    transition: 200ms ease-in;
+}
+
+.SidebarMenu:hover{
+    color: white;
+}
+
+.SidebarMenu .SidebarMenu_icon{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+}
+

@@ -1,0 +1,64 @@
+.body{
+    flex: 0.8;
+    background-color: rgb(91,87, 115);
+    background: linear-gradient(rgb(91,87, 115), rgba(0, 0, 0, 1));
+    color: white;
+    height: 100vh;
+    overflow-y: overlay;
+}
+
+.body::-webkit-scrollbar{
+    display: none;
+}
+
+.bodyInfo{
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+.bodyInfo img{
+    height: 35vh;
+    margin: 0 20px;
+}
+
+.bodyInfoText h2{
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+
+.bodyInfoText span{
+    font-size: 16px;
+    color: #848484;
+}
+
+.infoText{
+    color: white;
+    margin-top: 5px;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.infoText span{
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.bodyIcons{
+    display: flex;
+    align-items: center;
+}
+
+.bodyIcons i{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.play{
+    font-size: 40px;
+    color: rgb(73, 157, 73);
+}

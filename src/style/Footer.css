@@ -1,0 +1,82 @@
+/* ! Left section of the footer bar  */
+.footer{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    height: 65px;
+    width: 100%;
+    bottom: 0;
+    background-color: #282828;
+    padding: 15px;
+
+}
+
+.footer_left{
+    flex: 0.3;
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 300px;
+}
+
+.footer_left .albumLogo{
+    height: 60px;
+    width: 60px;
+    object-fit: contain;
+    margin-right: 20px;
+}
+
+
+
+/* ! Middle section for the footer bar */
+.footer_center{
+    flex: 0.4;
+    padding: 0 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-top: -15px; */
+    cursor: pointer;
+}
+
+.footer_center .play{
+    font-size: 30px; 
+}
+
+.footer_center .next{
+    font-size: 22px;
+}
+
+.footer_center .previous{
+    font-size: 22px;
+}
+
+.shuffle, .repeat{
+    color: rgb(11, 110, 11);
+}
+
+.play:hover, .next:hover, .previous:hover, .repeat:hover, .shuffle:hover{
+    transition: transform 0.2s ease-in;
+    transform: scale(1.2);
+}
+
+
+/* ! Right section of the footer bar */
+.footer_right{
+    flex: 0.3;
+    display: flex;
+    /* padding: 0 50px; */
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer_right .volumeDown, .footer_right .playList-play{
+    font-size: 25px;
+    color: #848484;
+}
+
+.volumeRange{
+    margin-right: 30px;
+}
