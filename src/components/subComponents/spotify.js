@@ -1,5 +1,5 @@
 const CLIENT_ID = '1a17c1a50d6047c2a705cc8de86ba96f'
-const REDIRECT_URI = "http://localhost:3000/"
+const REDIRECT_URI = "https://spotifyui-clone.onrender.com/"
 const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize"
 const RESPONSE_TYPE = "token"
 
